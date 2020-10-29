@@ -222,6 +222,7 @@ a:hover {
     background-image: url(./images/Vector.png);
     background-repeat: no-repeat;
     background-position: 115% 50%;
+    /* transform: rotate(180); */
 }
 
 .articles__card {
@@ -266,7 +267,6 @@ a:hover {
     background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
     border-radius: 24px;
     padding-bottom: 70px;
-    /* z-index: 1; */
 }
 
 .feedback__dotted__image-wrapper {
@@ -277,6 +277,9 @@ a:hover {
     position: absolute;
     right: -45px;
     top: -20px;
+    /* right: 0;
+    top: 0;
+    overflow: hidden; */
 }
 
 .feedback__dotted__image--second {
@@ -359,6 +362,8 @@ a:hover {
     color: rgba(64, 137, 237, 1);
     mix-blend-mode: normal;
     transition: color 0.2s;
+    display: flex;
+    align-items: center;
 }
 
 .articles__read-more:hover {
@@ -370,7 +375,7 @@ a:hover {
 
 .fa-long-arrow-alt-right {
     font-size: 22px;
-    padding: 20px 10px 0 10px;
+    padding: 0 10px;
 }
 
 .footer-wrapper {
