@@ -66,6 +66,7 @@
     padding: 10px 0;
     color: rgba(255, 255, 255, 1);
     mix-blend-mode: normal;
+    padding-top: 64px;
 }
 
 .heading--fifth {
@@ -218,7 +219,7 @@ a:hover {
 }
 
 .articles__card {
-    width:100%;
+    width: 100%;
     min-height: 515px;
     margin: 72px 35px;
     padding: 0 0 35px 0;
@@ -255,11 +256,26 @@ a:hover {
 .fedback-wrapper {
     background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
     border-radius: 24px;
-    padding-top: 64px;
     padding-bottom: 70px;
+    z-index: 1;
 }
 
-.feedback__user{
+.feedback__dotted__image-wrapper {
+    position: relative;
+}
+
+.feedback__dotted__image {
+    position: absolute;
+    right: -45px;
+    top: -20px;
+}
+
+.feedback__dotted__image--second {
+    position: absolute;
+    left: 400px;
+}
+
+.feedback__user {
     display: flex;
 }
 
@@ -301,7 +317,7 @@ a:hover {
 .feedback__slider__dot {
     height: 18px;
     width: 18px;
-    background-color:rgba(91, 155, 243, 0.3);
+    background-color: rgba(91, 155, 243, 0.3);
     border-radius: 50%;
     display: inline-block;
     margin: 0 9px;
@@ -312,11 +328,18 @@ a:hover {
     background-color: rgba(91, 155, 243, 0.5);
 }
 
-.feedback__slider__dot:active,
-.feedback__slider__dot--active {
+.feedback__slider__dot:active, .feedback__slider__dot--active {
     background-color: rgba(91, 155, 243, 1);
 }
 
+.articles__dotted__image-wrapper {
+    position: relative;
+}
+
+.article__dotted__image {
+    position: absolute;
+    top: 25px;
+}
 
 .articles__read-more {
     padding: 0 50px 35px 30px;
@@ -344,7 +367,6 @@ a:hover {
 .footer {
     background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
     padding-top: 100px;
-    padding-bottom: 100px;
 }
 
 .footer__logo {
@@ -355,7 +377,7 @@ a:hover {
     font-weight: 700;
     font-size: 20px;
     line-height: 60px;
-    color:rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
     font-family: 'Mulish', sans-serif;
 }
 
@@ -370,7 +392,7 @@ a:hover {
     font-weight: 300;
     font-size: 18px;
     line-height: 38px;
-    color:rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
     font-family: 'Mulish', sans-serif;
     padding-left: 0;
 }
@@ -382,6 +404,11 @@ a:hover {
     border: none;
 }
 
+.footer__dotted__image-wrapper {
+    padding-top: 17px;
+    padding-left: 0;
+    margin-left: 0;
+}
 
 .flex {
     display: flex;
@@ -410,4 +437,3 @@ a:hover {
 .margin-top--200 {
     margin-top: 200px;
 }
-
