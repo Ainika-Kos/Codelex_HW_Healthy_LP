@@ -1,6 +1,6 @@
 # Landing page in HTML & CSS from Figma design
 
-## Landing page :
+## Landing page:
 https://awesome-varahamihira-3f67d5.netlify.app/
 
 ## Figma design:
